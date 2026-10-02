@@ -1,0 +1,93 @@
+/* BY: YASSIN MAGED
+BEHANCE: YassinMaged
+#ffcc00
+*/
+
+h2{
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/contact-us.jpg);
+    text-decoration-line: underline;
+    background-color: #ffcc00;
+    padding: 100px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+#header{
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#text-header{
+    font-family: 'Aref Ruqaa', serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+.button-center{
+    font-family: 'Aref Ruqaa', serif;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.selectbtn {
+    font-family: 'Aref Ruqaa', serif;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 120%;
+    color: white;
+    background-color: #000033;
+    cursor: pointer;
+    margin-top: 10px;
+    margin: 40px;
+}
+
+.selectbtn a{
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.selectbtn:hover{
+    transform: translateY(3px);
+    transition-duration: 0.5s;
+}
+
+.selectbtn:active{
+    transform: translateY(8px);
+    transition-duration: 0.5s;
+}
+.sm {
+    font-family: 'Aref Ruqaa', serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sm p{
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.sm-img {
+    padding: 10px;
+    text-align: center;
+}
+
+.sm-img img {
+    padding: 10px;
+
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    
+}

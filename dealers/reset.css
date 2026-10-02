@@ -1,0 +1,74 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Scheherazade:wght@400;700&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    
+    box-sizing: border-box;
+    font-family: 'Scheherazade', serif;
+    
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale''
+
+}
+
+#menu{
+    font-family: 'Lobster', cursive;
+    height: 80px;
+    width: 100%;
+    background: #18A558;
+    color: black;
+}
+
+#logo img{
+    width: 120px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+
+    float: left;
+    padding-left: 40px;
+}
+
+/*center img{
+    
+float: none;
+position: absolute;
+top: 4.5%;
+left: 50%;
+transform: translate(-50%, -50%);
+    
+}*/
+
+.menu-all .menu-item{
+    font-family: 'Lobster', cursive;
+    float: right;
+    padding: 10px;
+    padding-right: 20px;
+    list-style-type: none;
+    line-height: 60px;
+    font-size: 28px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+li a{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    display: inline-block;
+    color: inherit;
+}
+
+.menu-item:hover {
+    transition-duration: 0.8s;
+    background-color: #ECF87F;
+}

@@ -1,0 +1,220 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Scheherazade:wght@400;700&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    
+    box-sizing: border-box;
+    font-family: 'Scheherazade', serif;
+    
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale''
+
+}
+
+#menu{
+    font-family: 'Lobster', cursive;
+    height: 80px;
+    width: 100%;
+    background: #18A558;
+    color: black;
+}
+
+#logo img{
+    width: 120px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+
+    float: left;
+    padding-left: 40px;
+}
+
+.menu-all .menu-item{
+    font-family: 'Lobster', cursive;
+    float: right;
+    padding: 10px;
+    padding-right: 20px;
+    list-style-type: none;
+    line-height: 60px;
+    font-size: 28px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+li a{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    display: inline-block;
+    color: inherit;
+}
+
+.menu-item:hover {
+    transition-duration: 0.8s;
+    background-color: #ECF87F;
+}
+
+
+
+
+
+
+
+
+/* ------- RESPONSIVE -------- */
+
+
+
+
+
+
+
+
+
+@media (max-width: 587px){
+    
+    /* ----- DEAFULTS ----- */
+    
+#menu{
+    font-family: 'Lobster', cursive;
+    height: 40px;
+    width: 100%;
+    background: #18A558;
+    color: black;
+}
+
+#logo img{
+    line-height: 80px;
+    width: 50px;
+    padding-left: 10px;
+}
+
+.menu-all .menu-item{
+    font-family: 'Lobster', cursive;
+    float: right;
+    margin-top: none;
+    padding: 8px;
+    padding-right: 8px;
+    list-style-type: none;
+    line-height: 25px;
+    font-size: 10px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+li a{
+    font-family: 'Lobster', cursive;
+    font-size: 14px;
+    display: inline-block;
+    color: inherit;
+}
+    
+    /* END DEAFULTS */
+    h2{
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    height: 60px;
+    color: black;
+    background-color: white;
+    border-color: #F8D210;
+}
+    
+    #potatoContent{
+    padding: 80px;
+    text-align: center;
+    background-image: url('../img/Potatos.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#potatoContent h2{
+    font-size: 28px;
+    margin: 10px;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+#potatoContent p{
+    text-align: center;
+    background-color: #ECF87F;
+    height: 100%;
+    font-size: 12px;
+    margin: 8px;
+}
+    
+#manufactContent{
+    font-family: 'Aref Ruqaa', serif;
+    padding: 80px;
+    background-image: url('../img/Manufact.jpg');
+    font-size: 28px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+#manufactContent h2{
+    font-size: 28px;
+    margin: 10px;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+#manufactContent p{
+    margin: 8px;
+    text-align: center;
+    background-color: #ECF87F;
+    height: 100%;
+    font-size: 12px;
+}
+#qualityContent{
+    font-family: 'Aref Ruqaa', serif;
+    padding: 80px;
+    background-image: url('../img/Quality.jpg');
+    font-size: 36px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+#qualityContent h2{
+    font-size: 28px;
+    margin: 10px;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+#qualityContent p{
+    margin: 8px;
+    text-align: center;
+    background-color: #ECF87F;
+    height: 100%;
+    font-size: 12px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

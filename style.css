@@ -1,0 +1,152 @@
+/* BY: YASSIN MAGED
+BEHANCE: YassinMaged
+*/
+
+*{
+    margin: 0 auto
+}
+
+#potatoContent{
+    padding: 80px;
+    font-size: 36px;
+    text-align: center;
+    background-image: url('../img/Potatos.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#potatoContent h2{
+    font-family: 'Aref Ruqaa', serif;
+}
+
+#potatoContent p{
+    background-color: #ECF87F;
+    height: 100%;
+}
+
+#manufactContent{
+    font-family: 'Aref Ruqaa', serif;
+    padding: 80px;
+    background-image: url('../img/Manufact.jpg');
+    font-size: 36px;
+    text-align: center;
+    background-position: center fixed;
+    background-size: cover;
+}
+
+#manufactContent h2{
+    font-family: 'Aref Ruqaa', serif;
+}
+
+#manufactContent p{
+    background-color: #ECF87F;
+    height: 100%;
+    
+}
+#qualityContent{
+    font-family: 'Aref Ruqaa', serif;
+    padding: 80px;
+    background-image: url('../img/Quality.jpg');
+    font-size: 36px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+#qualityContent h2{
+    font-family: 'Aref Ruqaa', serif;
+}
+
+#qualityContent p{
+    background-color: #ECF87F;
+    height: 100%;
+    font-weight: bold;
+}
+
+footer{
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-see {
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-family: 'Aref Ruqaa', serif;
+    width: 190px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 120%;
+    color: white;
+    background-color: #000033;
+    cursor: pointer;
+    transition-duration: 0.08s;
+}
+
+.btn-see a{
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.btn-see:active{
+    transform: translateY(5px)
+}
+
+
+
+#ProdTitle {
+    font-size: 36px;
+    text-align: center;
+    background-color: #000033;
+    color: white;
+}
+
+h2{
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    height: 100px;
+    color: black;
+    background-color: white;
+    border-color: #F8D210;
+}
+
+p{
+text-align: center;
+max-height: inherit;
+margin: 25px;
+border-radius: 10px;
+max-height: 550px;
+height: 525px;
+border-color: #F8D210;
+color: black;
+font-size: 30px;
+font-weight: bold;
+background-color: #F8D210;
+}
+
+.SeeProducts{
+    margin-top: 20px;
+    font-family: 'Aref Ruqaa', serif;
+    text-align: center;
+    font-size: 28px;
+}
+#SeeProd {
+    text-align: center;
+}
+
+#contact-us {
+    font-family: 'Aref Ruqaa', serif;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.text-center {
+    font-family: 'Aref Ruqaa', serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}

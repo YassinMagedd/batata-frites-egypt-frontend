@@ -1,0 +1,75 @@
+/* BY: YASSIN MAGED
+BEHANCE: YassinMaged
+*/
+
+h2{
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/about-us.jpg);
+    text-decoration-line: underline;
+    background-color: #ffcc00;
+    padding: 100px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Aref Ruqaa', serif;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+.who {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.mcompany {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.products {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.btn-see {
+    font-family: 'Aref Ruqaa', serif;
+    margin-top: 20px;
+    width: 190px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 120%;
+    color: white;
+    background-color: #000033;
+    cursor: pointer;
+    transition-duration: 0.08s;
+}
+
+.btn-see:active{
+    transform: translateY(5px)
+}
+
+#see-prod {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#see-prod button a{
+    font-family: 'Aref Ruqaa', serif;
+}
